@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.server.js",
   "scripts": {
-    "start": "nodemon ./index.server.js"
+    "start": "nodemon ./index.server.js",
+    "build": "npm run build"
   },
   "dependencies": {
     "aws-sdk": "^2.809.0",
